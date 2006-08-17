@@ -1,26 +1,1 @@
-<?xml version="1.0"?>
-<plugin version="0.1">
-  <name>Google PageRank</name>
-  <version_url>http://weblog.nekofar.com/GooglePageRank.xml</version_url>
-  <sig>GooglePageRank/GooglePageRank.pl</sig>
-  <icon width="32">../../mt-static/plugins/GooglePageRank/images/icon.gif</icon>
-  <files>
-    <file>
-      <src>plugins/GooglePageRank</src>
-      <destination>plugins/GooglePageRank</destination>
-    </file>
-    <file>
-      <src>mt-static/plugins/GooglePageRank</src>
-      <destination>plugins/GooglePageRank</destination>
-      <static>1</static>
-    </file>
-    <file>
-      <src>extlib/WWW</src>
-      <destination>extlib/WWW</destination>
-    </file>
-  </files>
-  <uninstall>
-    <rmdir>plugins/GooglePageRank</rmdir>
-    <rmdir static="1">plugins/GooglePageRank</rmdir>
-  </uninstall>
-</plugin>
+<?xml version="1.0"?><plugin version="0.1">  <name>Google PageRank</name>  <version_url>http://plugins.movalog.ir/plugin-manager.php?plugin=GooglePageRank</version_url>  <sig>GooglePageRank/GooglePageRank.pl</sig>  <icon width="32">../../mt-static/plugins/GooglePageRank/images/icon.gif</icon>  <files>    <file>      <src>plugins/GooglePageRank</src>      <destination>plugins/GooglePageRank</destination>    </file>    <file>      <src>mt-static/plugins/GooglePageRank</src>      <destination>plugins/GooglePageRank</destination>      <static>1</static>    </file>    <file>      <src>extlib/WWW</src>      <destination>extlib/WWW</destination>    </file>  </files>  <uninstall>    <rmdir>plugins/GooglePageRank</rmdir>    <rmdir static="1">plugins/GooglePageRank</rmdir>  </uninstall></plugin>
